@@ -71,7 +71,7 @@ a:hover {
 }
 
 
-/* MEDIA QUERIES  cuando la pantalla es menor que 390px*/
+/* MEDIA QUERIES  cuando la pantalla es menor que 390px  que sea mayor a 768px y mayor a 1440px*/
 
 @media (max-width: 390px) {
  #header {
