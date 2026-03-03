@@ -99,7 +99,7 @@
  font-family: 'fraunces', serif;
 }
 
-/* Cuando el dispositivo es mas chico que 390px */
+/* Cuando el dispositivo es mas chico que 390px  elementos chicos*/
 
 @media (max-width: 390px) {
   .main {
