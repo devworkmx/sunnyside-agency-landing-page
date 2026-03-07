@@ -28,13 +28,14 @@
 /* Elemento de la figura 2 y su diseño  */
 .element-2 img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
 }
 
 /* Elemento de la figura 3 y su diseño  */
 .element-3 img {
   width: 100%;
+  height: 100%;
 }
 
 /* Elemento de la figura 4 y su diseño  */
@@ -101,13 +102,13 @@
 
 /* Cuando el dispositivo es mas chico que 390px */
 
-@media (min-width: 390px) {
+@media (min-width: 390px) and (max-width: 640px) {
   .main {
     grid-template-columns: 1fr; /*Secciona la pantalla y coloca los elmentos en una sola fila */
   }
 }
 
-@media (min-width: 390px) {
+@media (min-width: 390px) and (max-width: 640px) {
   /* Elementro de la figura 1 y su diseño */
 
   .element-1 {
